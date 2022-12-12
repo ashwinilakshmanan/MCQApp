@@ -1,0 +1,31 @@
+{
+  "applications": "*",
+  "changelogDate": "20221212093317",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "option",
+  "fields": [
+    {
+      "fieldName": "option",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "isCorrect",
+      "fieldType": "Boolean"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Option",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "question",
+      "otherEntityRelationshipName": "option",
+      "relationshipName": "question",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

@@ -1,0 +1,26 @@
+{
+  "mcqApp": {
+    "option": {
+      "home": {
+        "title": "Options",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Option बनाएँ",
+        "createOrEditLabel": "Option बनाएँ या संपादित करें",
+        "notFound": "No Options found"
+      },
+      "created": "एक नया Option [identifier: {{ param }}] तैयार है",
+      "updated": "एक Option [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Option [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Option [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Option"
+      },
+      "id": "ID",
+      "option": "Option",
+      "isCorrect": "Is Correct",
+      "question": "Question"
+    }
+  }
+}
