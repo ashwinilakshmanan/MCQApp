@@ -114,7 +114,7 @@ export const OptionUpdate = () => {
                 {questions
                   ? questions.map(otherEntity => (
                       <option value={otherEntity.id} key={otherEntity.id}>
-                        {otherEntity.id}
+                        {otherEntity.question}
                       </option>
                     ))
                   : null}
